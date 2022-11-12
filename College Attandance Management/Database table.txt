@@ -1,0 +1,14 @@
+﻿Create table Users(
+Id int Identity,
+Name varchar(100) not null,
+Address varchar(100) not null,
+Email varchar(100) not null,
+MobileNumber varchar(10) not null,
+Standard int not null,
+Password varchar(20) not null,
+CreatedBy int ,
+CreatedDate datetime,
+ModifiedBy int,
+ModifiedDate datetime,
+IsActive bit not null
+)
